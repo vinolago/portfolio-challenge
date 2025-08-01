@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Vincent Olago is a software developer and cybersecurity anayst">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/avatar.ico" type="image/x-icon"></link>
+    
+</head>
+<body>
+    <header id="head" class="head">
+        <nav class="top-nav">
+            <div class="logo">vincentolago</div>
+            <div class="socials">
+                <a href="https://github.com/vinolago" target="_blank" rel="noopener">Github</a>
+                <a href="https://linkedin.com/in/vincent-olago/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Vincent Olago.</span> Nice to meet you!</h1>
+                <p>I love turning ideas into interactive experiences and building accessible software that solves real problems.</p>
+                <a href="#contact" class="btn">CONTACT ME</a>
+            </div>
+                <div class="hero-img">
+                <img src="./assets/me.jpg" alt="Vincent photo">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="skills" class="skills-section" aria-labelledby="skills-title">
+            <div class="section-card">
+                <div class="card-title">
+                    <h2 id="skills-title"> Skills/Languages </h2>
+                </div>
+                <div class="items">
+                    <div class="item">
+                        <h3>HTML & CSS</h3>
+                        <p>1 Year Experience</p>
+                    </div>
+                    <div class="item">
+                        <h3>Javascript</h3>
+                        <p>6 Months Experience</p>
+                    </div>
+                    <div class="item">
+                        <h3>Python</h3>
+                        <p>6 Months Experience</p>
+                    </div>
+                    <div class="item">
+                        <h3>React</h3>
+                        <p>6 Months Experience</p>
+                    </div>
+                    <div class="item">
+                        <h3>MySQL(MongoDB)</h3>
+                        <p>3 Months Experience</p>
+                    </div>
+                    <div class="item">
+                        <h3>Cybersecurity</h3>
+                        <p>1 Year Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" aria-labelledby="my-education">
+            <div class="section-card">
+                <div class="card-title">
+                    <h2>Education</h2>
+                </div>
+                <div>
+                    <div class="items">
+                        <div class="item">B.Sc. in Physics, Kenyatta University, 2015</div>
+                        <div class="item">Cybersecurity Analyst, USIU/CyberShujaa, 2025</div>
+                        <div class="item">Software Development, PLP Academy, 2025 (Ongoing)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+            <div class="projects-header">
+                <h2>Projects</h2>
+                <a href="#contact" class="btn">CONTACT ME</a>
+            </div>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="/assets/social-links.png" alt="screenshot of social media profile project">
+                    <h3>Social Media Profile</h3>
+                    <p>Built with HTML CSS</p>
+                    <a href="https://github.com/vinolago/social-links-profile/blob/main/index.html" class="btn" target="_blank" rel="noopener">View Code</a>
+                </div>
+                <div class="project">
+                    <img src="./assets/login-form.png" alt="screenshot of a login form to a website">
+                    <h3>Login Form</h3>
+                    <p>Built with HTML CSS</p>   
+                    <a href="https://github.com/vinolago/login-form/blob/main/form.html" class="btn" target="_blank" rel="noopener">View Code</a>
+                </div>
+                <div class="project">
+                    <img src="./assets/qr-code.png" alt="screenshot of QR code project">
+                    <h3>QR Code Card</h3>
+                    <p>Built with HTML CSS</p>
+                    <a href="https://github.com/vinolago/QR-code-card/blob/main/index.html" class="btn" target="_blank" rel="noopener">View Code</a>
+                </div>
+                <div class="project">
+                    <img src="./assets/dashboard.png" alt="screenshot of dashboard project">
+                    <h3>Dashboard Project</h3>
+                    <p>Built with HTML CSS</p>
+                    <a href="https://github.com/vinolago/dashboards/blob/main/dashboard.html" class="btn" target="_blank" rel="noopener">View Code</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests">
+            <div class="section-card">
+                <div class="card-title">
+                    <h2>Interests</h2>
+                </div>
+                <div class="items">
+                    <div class="item">MLOps/AI Infrastructure Engineer</div>
+                    <div class="item">Web Development</div>
+                    <div class="item">Cybersecurity</div>
+                    <div class="item">Blockchain</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <div class="contact-card">
+                <div class="contact">
+                    <h2>Contact</h2>
+                    <p id="contact-title">I would love to hear about you idea and help you bring it to life. Get in touch by filling this form.</p>
+                </div>
+                <div class="contact">
+                    <form action="https://formspree.io/f/xnnvparb" method="POST">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" required>
+                
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+                
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                
+                    <button type="submit" class="submit-link">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p><span class="logo">vincentolago</span> &copf; 2025 All rights reserved.</p>
+        <div class="socials">
+            <a href="https://linkedin.com/in/vincent-olago/" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/vinolago" target="_blank" rel="noopener">Github</a>
+            <a href="https://vincentolago.medium.com/" target="_blank" rel="noopener">Hacking Writeups</a>
+        </div>
+    </footer>
+
+</body>
+</html>
