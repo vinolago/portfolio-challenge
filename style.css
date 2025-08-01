@@ -330,7 +330,12 @@ footer {
     footer {
         flex-direction: column;
         gap: 1rem;
-        text-align: center;
+       text-align: center;
     }
-}
+    .socials a {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}   
+
 
