@@ -37,6 +37,14 @@ header {
     letter-spacing: 4px;
     color: white;
 }
+.logo a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.logo a:hover {
+    border-bottom: 2px solid #00cc7a;
+}
 
 /* header / navigation */
 .head {
