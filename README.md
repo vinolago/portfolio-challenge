@@ -3,6 +3,8 @@
 Welcome to my personal developer portfolio!  
 This project is a modern, responsive portfolio website built to showcase my skills, experience, and projects as part of my journey to become a software developer.
 
+Live link: https://vinolago.github.io/portfolio-challenge/
+
 ![Portfolio Screenshot](/assets/screenshot.png).
 
 ## 📌 About
